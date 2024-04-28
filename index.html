@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+	<title>HOME | IMPERIAL ROYALE HOTEL</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="images/jpg" href="images/favi.jpg">
+    <link rel="shortcut icon" type="images/png" href="images/logo.png">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/navbar.css">
+    <link rel="stylesheet" href="style/wedding.css">
+    <link rel="stylesheet" href="style/facilities.css">
+    <link rel="stylesheet" href="style/contact.css">
+    <link rel="stylesheet" href="style/home.css">
+</head>
+
+    <style>
+        .navbar {
+	padding-top: 6%;
+	display: flex;
+	justify-content: center;
+    position: absolute;
+    z-index: 50;
+    width: 80%;
+    margin-left: 4%;
+}
+  
+  nav ul li a, .dropbtn {
+    z-index: 50;
+  }
+
+.nav-head {
+  z-index: -1;
+}
+    </style>
+
+</head>
+
+<body>
+    
+    <div class="slideshow-container">
+
+        <div class="navbar">
+            
+            <div class="nav-logo">
+                <img src="images/logo1.png" alt="Logo">
+            </div>
+            <div class="nav-content">
+                <nav>
+
+                <ul>   
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="facilities.html" class="active">About Us</a></li>
+                    <li class="dropdown">
+                        <a href="our_rooms.html" class="dropbtn">our services</a>
+                        <div class="dropdown-content">
+                            <a href="our_rooms.html#twin">deluxe twin</a>
+                            <a href="our_rooms.html#double">deluxe double</a>
+                            <a href="our_rooms.html#executive">executive suite</a>
+                            <a href="our_rooms.html#balcony">deluxe double</a>
+                            <a href="our_rooms.html#one">more rooms</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="dining.html" class="dropbtn">conferences</a>
+                        <div class="dropdown-content">
+                            <a href="dining.html#roy">imperial royale hotel</a>
+                            <a href="dining.html#gran">grand imperial hotel</a>
+                            <a href="dining.html#height">imperial heights hotel</a>
+                        </div>
+                    </li>
+                    <li><a href="portfolio.html">portfolio</a></li>
+                    <li><a href="wedding.html">gallery</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </div>
+        
+        </nav>
+
+    
+        </div>
+    
+    <div class="mySlides fade">
+      <img src="images/c1.jpg" style="width:100%;">
+      <div class="text">
+        <h5>imperial</h5> <br>
+        <h1>royale</h1> <br>
+        <h5>hotels</h5> <br>
+      </div>
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="images/a15.jpg" style="width:100%;">
+      <div class="text">
+        <h5>cool</h5> <br>
+        <h1>swimming pool</h1> <br>
+        <h5>facilities</h5> <br>
+      </div>
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="images/wallpaperflare.com_wallpaper.jpg" style="width:100%;">
+      <div class="text">
+        <h5>offers</h5> <br>
+        <h1>special meals</h1> <br>
+        <h5>to customers</h5> <br>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+        <img src="images/c2.jpg" style="width:100%">
+        <div class="text">
+          <h1>best view</h1> 
+          <h5>in town</h5> <br>
+        </div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="images/c3.jpg" style="width:100%">
+        <div class="text">
+          <h1>nice infrastructure</h1> 
+          <h5>all around</h5> <br>
+        </div>
+      </div>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span> 
+    </div>
+    
+    <script>
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 4000); // Change image every 2 seconds
+    }
+    </script>
+     <div class="home" allign="center">
+     <h1 style="font-size: 30;font-family: 'Courier New', Courier, monospace;color: brown;"> Welcome to  Imperial Group of Hotels</h1><br>
+
+    <p>
+         A holiday in any of these hotels with your family and friends will be an memorable experience of a lifetime</p>
+<p> The Imperial Group of Hotels currently comprises of five Hotels
+    offering luxury accommodation in a total in excess of over 1000 bedrooms</p>
+<p> These full service, value for money hotels cater for the needs of
+ descerning global business and vacation trveler offering contemplary facilities in a warm and friendly environment
+     </p>
+    </div>
+    
+    <div class="cores" id="cores">
+
+        <div class="mission">
+            <section>
+                <h3>Our Mission</h3>
+                <hr>
+                <p>At Imperial group of hotels, we are dedicated to providing exceptional customer services; ensuring that every guest receives personalised attention and feels valued throughout their stay at each facility. </section>
+        </div>
+
+        <div class="vision">
+            <section>
+                <h3>Our Vision</h3>
+                <hr>
+                <p>The Imperial brand is committed to make the entire valued  guests to have home-like feeling while staying at any of the hotel properties;even when they are away from home. </section>
+        </div>
+
+        
+
+    </div>
+
+
+<div class="dining">
+
+    <div class="dine">
+        <img src="images/c1.jpg" alt="Elgon">
+    </div>
+   
+    <div class="dine-1">
+        <h1>OUR HOTELS</h1>
+        <p>Elgon Restaurant is located inside the lobby, our coffee shop serves hot & delicious breakfast early in the morning for our customers. Enhanced by the legendary and famous Uganda Local coffee Beans, the Coffee Shop will take you through a journey of magical experience with different, carefully natured tastes of the finest coffee in Kampala. </p>
+    </div>
+
+</div>
+
+<div class="dining">
+
+    <div class="dine-1">
+        <h1>CONFERENCES</h1>
+        <p>Africana Hotel is well-equipped to provide a comfortable and enjoyable stay for its guests. The hotel features an outdoor pool, fitness center, restaurant, bar, and conference facilities. Guests can also take advantage of free Wi-Fi, room service, 24-hour front desk, and complimentary parking.</p>
+    </div>
+
+    <div class="dine">
+        <img src="images/c3.jpg" alt="Elgon">
+    </div>
+
+</div>
+
+    <div class="home">
+        <h1>our rooms</h1>
+        <p>All rooms are fully equipped with an individually controlled air condition system, attached with a full private bathroom, a balcony overseeing the spectacular view, satellite television, fridge, wire and wireless internet access. With 253 rooms comprising of 5 suites, 103 deluxe rooms and 117 twin bed rooms and 28 Apartments, offering splendid views..</p>
+    </div>
+
+    <div class="home-1">
+
+        <div class="home-2">
+            <img src="images/b1.jpg" alt="image">
+            <div class="home-3">
+                <h2>Deluxe Twins</h2>
+            </div>
+        </div>
+
+        <div class="home-2">
+            <img src="images/b2.jpg" alt="image">
+            <div class="home-3">
+                <h2>Standard Deluxe</h2>
+            </div>
+        </div>
+
+        <div class="home-2">
+            <img src="images/b3.jpg" alt="image">
+            <div class="home-3">
+                <h2>Executive deluxe</h2>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="home">
+        <h1>gallery</h1>
+        <p>A must-see for art lovers, featuring a diverse collection of works by both established and emerging artists. The gallery showcases paintings, sculptures, and other art forms from Uganda and beyond. Guests can also enjoy a drink at the gallery's bar, which offers a relaxed atmosphere to take in the artwork. Guided tours of the gallery are available, providing visitors with insight into the artists and their creations.</p>
+    </div>
+
+    <center>
+    <div class="gallery">
+
+        <div class="gal">
+            <img src="images/a.jpg" alt="image">
+        </div>
+        <div class="gal">
+            <img src="images/a1.jpg" alt="image">
+        </div>
+        <div class="gal">
+            <img src="images/bath room.jpg" alt="image">
+        </div>
+        <div class="gal">
+            <img src="images/a3.jpg" alt="image">
+        </div>
+        <div class="gal">
+            <img src="images/a4.jpg" alt="image">
+        </div>
+
+    </div>
+    </center>
+
+    <center>
+    <div class="gallery">
+
+        <div class="gal">
+            <img src="images/a5.jpg" alt="image">
+        </div>
+        <div class="gal">
+            <img src="images/a6.jpg" alt="image">
+        </div>
+        <div class="gal">
+            <img src="images/a7.jpg" alt="image">
+        </div>
+        <div class="gal">
+            <img src="images/a8.jpg" alt="image">
+        </div>
+        <div class="gal">
+            <img src="images/a9.jpg" alt="image">
+        </div>
+
+    </div>
+    </center>
+
+    <div class="but">
+        <button>
+            <a href="gallery.html">browse our gallery</a>
+        </button>
+    </div>
+
+    <footer>
+
+        <div class="foot">
+            <div class="foot-1">
+                <img src="images/icons8-envelope-50.png" alt="image">
+                news & offers
+            </div>
+
+            <div class="foot-2">
+                <input type="email" placeholder="Your Email..." required>
+                <button>sign up</button>
+            </div>
+
+            <div class="foot-3">
+                <img src="images/icons8-facebook-circled-50.png" alt="image">
+                <img src="images/icons8-google-50.png" alt="image">
+                <img src="images/icons8-pinterest-50.png" alt="image">
+                <img src="images/icons8-twitter-circled-50.png" alt="image">
+                <img src="images/icons8-instagram-50.png" alt="image">
+            </div>
+        </div>
+
+        <div class="foot-4">
+
+            <div class="foot-8">
+                <img src="images/logo1.png" alt="logo">
+            </div>
+            <div class="foot-5">
+                <ul>
+                    <li> <img src="images/icons8-location-26.png" alt="">P O Box 4326, Kampala, Uganda.</li>
+                    <li> <img src="images/icons8-phone-26.png" alt="">+256 (0)417 111000</li>
+                    <li> <img src="images/icons8-mail-26.png" alt="">imperialhotels@hoteleq.com</li>
+                </ul>
+            </div>
+
+            <div class="foot-6">
+                    <h3> <a href="#">quick links</a></h3>
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="facilities.html">About Us</a></li>
+                        <li><a href="our_rooms.html">our services</a></li>
+                        <li><a href="dining.html">confrences</a></li>
+                        <li><a href="portfolio.html">portfolio</a></li>
+                        <li><a href="wedding.html">gallery</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+            </div>
+
+            <div class="foot-7">
+                <h3>Newsletter Subscribe</h3>
+                <p><input type="email" placeholder="Enter Email"></p>
+                <p><button>Subscribe</button></p>
+            </div>
+
+            </div>
+            
+        </div>
+
+        <div class="copy">
+            &#169; Imperial Royale Hotel. &nbsp; All Rights Resrved
+        </div>
+
+    </footer>
+    
+</body>
+</html>
